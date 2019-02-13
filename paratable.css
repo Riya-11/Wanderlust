@@ -1,0 +1,10 @@
+.c12{
+	height:300px;
+	width:300px;
+}
+
+.big:hover 
+{
+	background-color:yellow;
+	color:white;
+}

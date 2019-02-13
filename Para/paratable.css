@@ -1,0 +1,47 @@
+.container{width:96%; margin-left:35px;}
+		.one {width: 24%;float: left;}
+		.two {width: 24%;float: left;}
+		.three {width: 24%;float: left;}
+		.four{width: 24%;float: left;}
+		img{width: 100%;}
+		.description{width: 100%;height: 260px;}
+		.one:hover{background-color: #fb9902; transition: background-color 0.5s linear;}
+		.two:hover{background-color:#fb9902; transition: background-color 0.5s linear;}
+		.three:hover{background-color:  #fb9902; transition: background-color 0.5s linear;}
+		.four:hover{background-color:  #fb9902; transition: background-color 0.5s linear;}
+		.txt{font: 26px/26px 'Jockey One', Arial, sans-serif; color:#2f2f2f;    text-transform: uppercase; text-align: center; letter-spacing: 0;}
+		.dest_description{text-align: center; color: #888;font:20px/20px 'Jockey One', Arial, sans-serif; margin: 5px;}
+		.one:hover .dest_description{color: black;}
+		.two:hover .dest_description{color: black;}
+		.three:hover .dest_description{color: black;}
+		.four:hover .dest_description{color: black;}
+		body{background-color: black;}
+		.quote{font: 40px 'Jockey One', Arial, sans-serif; color:white;    text-transform: uppercase; text-align: center; padding-top: 100px; }
+		.testimonial{font-family: 'Roboto Slab', serif;color: red;text-align: center; font-size: 40px; width: 81%; height:600px; margin-left: 220px;}
+		.col1{float: left;padding: 30px;width: 27%;}
+		.col2{float: left;padding: 30px;width: 27%}
+		.col3{float: left;padding: 30px;width: 27%}
+		.nick{border-radius: 50%; height: 250px;width: 250px;}
+		.instxt{text-align: justify; color: #888;font:20px/20px 'Jockey One', Arial, sans-serif; width:100%;}
+		.video{width: 100%;margin-left: 30px;height: 550px;}
+		.v1{float: left;}
+		.v2{width:40%;float: left;}
+		.c12{
+	height:400px;
+	width:300px;
+	
+}
+
+.c2{
+	height:800px;
+	width:305px;
+	float:left;
+	color: white;
+}
+.box{
+	
+	background-color: red;
+	padding:14px;
+	width:35%;	
+	
+}

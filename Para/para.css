@@ -1,0 +1,202 @@
+body{overflow-x: hidden;}
+
+.c1{background-image: url('52.jpg');
+            }
+
+.c1{
+	width:1350px;
+	height:727px;
+		margin-left:0px;
+		margin-top:0px;
+}
+.c2{
+	float:right;
+}
+.c3{
+	float:left;
+}
+@font-face{
+  font-family: fred;
+  src:url('fred.ttf');
+}
+@font-face{
+  font-family: handlee;
+  src:url('handlee.ttf');
+}
+@font-face{
+  font-family: signika;
+  src:url('sig.otf');
+}
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+
+   
+}
+.mySlides2 {display:none;
+ }
+ .mySlides {display:none;
+ }
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+	
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.active {
+  background-color: #717171;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0.2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+}
+.container {
+	border: 1px solid white;
+  position: relative;
+  /*width: 30%;
+  height: 50%;
+  /*float: right;*/
+}
+.container1{
+		position: relative;
+		float: left;
+		width: 20%;
+		height: 50%;
+	}
+.image {
+  display: block;
+  /*width: 100%;
+  height: 100%;*/
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: 1s ease ;
+
+}
+.text2 {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+ /* font-family:abcd;*/
+}
+@font-face{ font-family: kaushan;
+			src:url('kaushan.ttf');}
+@font-face{ font-family: abcd;
+			src:url('finehand.ttf');}
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  opacity: 0.8;
+}
+.adjust{
+	height:330px;
+	width:330px;
+}
+.c12{
+	height:330px;
+	width:330px;
+}
+.box{
+	border:1px solid black;
+	background-color: red;
+	padding:14px;	
+	border-radius: 8%;
+}
+.explore{
+	height:50px;
+	width:100px;
+	background-color:#FF9980;
+	padding:14px;	
+	border-radius: 4%;
+	font-family: algerian;
+}
+
+
+
+ul {
+  
+  margin-left:0px;
+  padding:0px;
+  list-style : none;
+
+
+}
+ul li{
+  
+  float:left;
+  width:270px;
+  height:40px;
+    opacity:0.8;
+  line-height:40px;
+  text-align:center;
+  font-size:18px;
+  /*border-radius: 15px;*/
+
+}
+ul li a{
+
+  text-decoration:none;
+  color:white;
+  display:block;
+  font-family: abc;
+
+}
+ul li a:hover {
+  background-color:#FF9980;
+  cursor: pointer;}
+ul li ul li{
+  display:none;
+  }
+ul li:hover ul li
+{
+  display:block;
+}
+
+@font-face{ /*font-family: ab;
+      src:url('Everyday Mayhem.ttf');
+      /*font-family: abc;
+      src:url('knewave-outline.ttf');*/
+      font-family: ab;
+      src:url('selima_.otf');
+
+       }
+       @font-face{ font-family: abc;
+      src:url('Everyday Mayhem.ttf');}
+       @font-face{ font-family: abcd;
+      src:url('Fine Hand LET.ttf');}
+#moza{background-color: #E7EAED}

@@ -1,0 +1,21 @@
+body{overflow-x: hidden;}
+
+#head{ width: 1350px;
+height: 500px; }
+@font-face{ font-family: honey;
+			src:url('HoneyScript-Light.ttf'); }
+.sport-description{
+			font-family: honey;
+			font-size: 40px;
+			font-weight: bold;
+			text-align: center;
+}
+.destination-image{float: right;
+					height: 45%;
+					width: 45%;
+
+}
+.destination-description{ font-family: honey;
+						font-size: 30px;
+
+}
